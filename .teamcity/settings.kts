@@ -28,10 +28,11 @@ version = "2026.2"
 
 project {
 
-    buildType(Build)
+    buildType(ExampleTeamcity_Build)
 }
 
-object Build : BuildType({
+object ExampleTeamcity_Build : BuildType({
+    id("Build")
     name = "Build"
 
     vcs {
